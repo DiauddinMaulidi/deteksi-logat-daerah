@@ -33,4 +33,11 @@ $ pip install keras
 $ sudo pip install matplotlib
 
 ## Tahapan Program
-Secara umum tahapan dalam program ini yaitu pengumpulan data latih citra, praproses citra, ekstraksi ciri masing-masing data citra, proses training hasil ekstraksi ciri untuk pengenalan pola, dan testing data.
+Secara umum tahapan dalam program ini yaitu pengumpulan data, ekstraksi ciri masing-masing data, proses training hasil ekstraksi ciri untuk pengenalan pola, build model, dan testing data kemudian evaluasi.
+![Image](https://github.com/user-attachments/assets/5c66e88e-6f8c-4050-8503-76627f61b6e8)
+
+
+
+
+
+
