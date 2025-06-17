@@ -25,12 +25,7 @@ Program ini menggunakan bahasa pemrograman Python versi 3.12 dan dikembangkan da
 
 Instal library yang dibutuhkan yaitu: numpy, librosa, ipython, tensorflow, keras, matplotlib:
 
-| Header 1 | Header 2 |
-|---|---|
-| Baris 1, Kolom 1 | Baris 1, Kolom 2 |
-| Baris 2, Kolom 1 | Baris 2, Kolom 2 |
-
-| $ pip install numpy |
+| > $ pip install numpy
 $ pip install librosa
 $ pip install ipython
 $ pip install tensorflow
