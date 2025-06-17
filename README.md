@@ -46,9 +46,12 @@ Penelitian ini berhasil membangun sebuah model klasifikasi berbasis Deep Learnin
 
 ## 📈 Saran
 saran dalam pengembangan selanjutnya adalah:
-a. Perluasan dataset dengan lebih banyak variasi penutur dan logat dari berbagai daerah di Indonesia.\n
+a. Perluasan dataset dengan lebih banyak variasi penutur dan logat dari berbagai daerah di Indonesia.
+
 b. Peningkatan kualitas audio dan preprocessing (misalnya, penghilangan noise).
+
 c. Eksperimen dengan arsitektur model lain seperti LSTM atau CNN khusus audio.
+
 d. Evaluasi menggunakan f1-score dan recall per kelas untuk mengukur lebih adil kinerja di setiap jenis logat.
 
 
