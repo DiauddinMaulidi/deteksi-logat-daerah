@@ -26,11 +26,11 @@ Program ini menggunakan bahasa pemrograman Python versi 3.12 dan dikembangkan da
 Instal library yang dibutuhkan yaitu: numpy, librosa, ipython, tensorflow, keras, matplotlib:
 
 | > $ pip install numpy
-$ pip install librosa
-$ pip install ipython
-$ pip install tensorflow
-$ pip install keras
-$ sudo pip install matplotlib
+|$ > pip install librosa
+|$ > pip install ipython
+|$ > pip install tensorflow
+|$ > pip install keras
+|$ > sudo pip install matplotlib
 
 ## Tahapan Program
 Secara umum tahapan dalam program ini yaitu pengumpulan data, ekstraksi ciri masing-masing data, proses training hasil ekstraksi ciri untuk pengenalan pola, build model, dan testing data kemudian evaluasi.
