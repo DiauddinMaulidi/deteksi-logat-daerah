@@ -32,6 +32,7 @@ $ pip install ipython
 $ pip install tensorflow
 $ pip install keras
 $ pip install matplotlib
+```
 
 ## Tahapan Program
 Secara umum tahapan dalam program ini yaitu pengumpulan data, ekstraksi ciri masing-masing data, proses training hasil ekstraksi ciri untuk pengenalan pola, build model, dan testing data kemudian evaluasi.
