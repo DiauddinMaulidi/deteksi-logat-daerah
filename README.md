@@ -1,5 +1,36 @@
-# Pengolahan Audio - Deteksi Asal Daerah Berdasarkan Logat Bahasa daerah 
+# 🗣️ Pengolahan Audio - Deteksi Asal Daerah Berdasarkan Logat Bahasa dengan Machine Learning
 
-Dari hasil pelatihan model didapatkan akurasi sebesar 66,67%, karena kurangnya kualitas data,
-data yang digunakan hanya 30 data suara dengan 2 label yaitu logat sunda dan logat timur,
-untuk kedepannya mungkin bisa ditingkatkan kualitas dan kuantitas dati dataset
+Penelitian ini merupakan implementasi deep learning berbasis keras untuk mendeteksi **asal daerah seseorang berdasarkan logat bicaranya**. Model dilatih menggunakan dataset audio berbahasa Indonesia yang diekstrak menggunakan teknik MFCC (Mel-Frequency Cepstral Coefficients) untuk diambil polanya, kemudian dianalisis untuk mengidentifikasi ciri khas fonetik/logat dari beberapa wilayah di Indonesia.
+
+---
+
+### 🎯 Tujuan Proyek
+
+Meningkatkan kemampuan teknologi dalam memahami variasi bahasa daerah di Indonesia dan mengembangkan sistem klasifikasi logat otomatis yang dapat diaplikasikan untuk:
+- Sistem pengenalan suara
+- Asisten virtual berbasis lokal
+- Kajian linguistik dan sosiolinguistik
+
+### ⚙️ Teknologi & Library yang Digunakan
+
+- Python 3.12
+- NumPy
+- Librosa (untuk ekstraksi fitur audio)
+- keras (klasifikasi)
+- Matplotlib (visualisasi)
+- Jupyter Notebook
+
+## Requirements
+Program ini menggunakan bahasa pemrograman Python versi 3.12 dan dikembangkan dalam sistem operasi Windows.
+
+Instal library yang dibutuhkan yaitu: numpy, librosa, ipython, tensorflow, keras, matplotlib:
+
+$ pip install numpy
+$ pip install librosa
+$ pip install ipython
+$ pip install tensorflow
+$ pip install keras
+$ sudo pip install matplotlib
+
+## Tahapan Program
+Secara umum tahapan dalam program ini yaitu pengumpulan data latih citra, praproses citra, ekstraksi ciri masing-masing data citra, proses training hasil ekstraksi ciri untuk pengenalan pola, dan testing data.
