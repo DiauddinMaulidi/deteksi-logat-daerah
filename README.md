@@ -38,7 +38,7 @@ $ pip install matplotlib
 Secara umum tahapan dalam program ini yaitu pengumpulan data, ekstraksi ciri masing-masing data, proses training hasil ekstraksi ciri untuk pengenalan pola, build model, dan testing data kemudian evaluasi.
 ![Image](https://github.com/user-attachments/assets/5c66e88e-6f8c-4050-8503-76627f61b6e8)
 
-Dataset terdiri dari file audio berdurasi pendek, dikumpulkan dari penutur dengan aksen khas dari beberapa daerah Indonesia. Dataset ini telah diproses menjadi fitur MFCC, yang digunakan sebagai input untuk model.
+Dataset terdiri dari file audio berdurasi pendek, dikumpulkan dari penutur dengan logat khas dari beberapa daerah Indonesia. Dataset ini telah diproses menjadi fitur MFCC, yang digunakan sebagai input untuk model.
 
 ## 🎯 Evaluasi
 Model dievaluasi menggunakan:
